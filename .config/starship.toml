@@ -17,12 +17,12 @@ style = "bold fg:#a0a9cb bg:#1d2230"
 [username]
 show_always = true
 format = '[ $user ]($style)'
-style_user = "fg:#090c0c bg:#a3aed2"
+style_user = "bold fg:#090c0c bg:#a3aed2"
 style_root = "bold fg:#8c4351 bg:#a3aed2"
 
 [hostname]
-#ssh_only = false
-format = '[ @ $hostname ]($style)'
+ssh_only = false
+format = '[@ ]($style)[$hostname ](bold $style)'
 style = "fg:#090c0c bg:#a3aed2"
 
 [directory]
