@@ -30,7 +30,7 @@ style = "fg:#001010 bg:#b0b0f0"
 
 [directory]
 format = "[ $path ]($style)"
-style = "fg:#e0e0e0 bg:#70a0f0"
+style = "fg:#001010 bg:#70a0f0"
 truncation_length = 3
 truncation_symbol = "…/"
 
