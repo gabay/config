@@ -1,9 +1,9 @@
 format = """
 $cmd_duration\
-[░▒▓](fg:#8080c0)\
+[░▒▓](fg:#b0b0f0)\
 $username\
 $hostname\
-[▓▒░](fg:#8080c0 bg:#70a0f0)\
+[▓▒░](fg:#b0b0f0 bg:#70a0f0)\
 $directory\
 [▓▒░](fg:#70a0f0 bg:#404060)\
 $git_branch\
@@ -12,6 +12,7 @@ $time\
 [▓▒░](fg:#404060)\
 \n\
 $character"""
+
 [cmd_duration]
 format = "[\\[$duration\\] ]($style)\n"
 style = "bold fg:#a0a9cb"
@@ -19,13 +20,13 @@ style = "bold fg:#a0a9cb"
 [username]
 show_always = true
 format = '[ $user ]($style)'
-style_user = "bold fg:#001010 bg:#8080c0"
-style_root = "bold fg:#904050 bg:#8080c0"
+style_user = "bold fg:#001010 bg:#b0b0f0"
+style_root = "bold fg:#904050 bg:#b0b0f0"
 
 [hostname]
 ssh_only = true
 format = '[@ ]($style)[$hostname ](bold $style)'
-style = "fg:#001010 bg:#8080c0"
+style = "fg:#001010 bg:#b0b0f0"
 
 [directory]
 format = "[ $path ]($style)"
@@ -36,12 +37,10 @@ truncation_symbol = "…/"
 [git_branch]
 format = '[ $branch]($style)'
 style = "fg:#a0b0d0 bg:#404060"
-#style = "fg:#a0a9cb"
 
 [git_status]
 format = '[$all_status$ahead_behind]($style)'
 style = "fg:#a0b0d0 bg:#404060"
-#style = "fg:#a0a9cb"
 
 [time]
 disabled = false
