@@ -24,7 +24,7 @@ style_user = "bold fg:#001010 bg:#b0b0f0"
 style_root = "bold fg:#904050 bg:#b0b0f0"
 
 [hostname]
-ssh_only = true
+ssh_only = false
 format = '[@ ]($style)[$hostname ](bold $style)'
 style = "fg:#001010 bg:#b0b0f0"
 
